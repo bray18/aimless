@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 732, in script
+    server "Welcome! We're so glad you could make it. Please, come in and make yourselves at home."
+Exception: Sayer 'server' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 732, in script
+    server "Welcome! We're so glad you could make it. Please, come in and make yourselves at home."
+  File "/Users/Brady/Documents/Extra Projects/TigerHacks2023/renpy-8.1.3-sdk/renpy/ast.py", line 890, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/Users/Brady/Documents/Extra Projects/TigerHacks2023/renpy-8.1.3-sdk/renpy/ast.py", line 783, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'server' is not defined.
+
+macOS-14.0-arm64-arm-64bit arm64
+Ren'Py 8.1.3.23091805
+aimless 1.0
+Sun Nov  5 05:25:01 2023
